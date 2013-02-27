@@ -1,20 +1,35 @@
-//
-//  AppDelegate.m
-//  lab#1
-//
-//  Created by nemesis on 2/27/13.
-//  Copyright (c) 2013 __MyCompanyName__. All rights reserved.
-//
-
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize fruitTabOne = _fruitTabOne;
+@synthesize fruitTabTwo = _fruitTabTwo;
+@synthesize fruitFieldOne = _fruitFieldOne;
+@synthesize fruitFieldTwo = _fruitFieldTwo;
 
 @synthesize window = _window;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSLog(@"Application finished launching succesfully.");	
+    [self.fruitFieldOne setTarget:self];
+    [self.fruitFieldTwo setTarget:self];
+    [self.fruitFieldOne setAction:@selector(addOne:)];
+    [self.fruitFieldTwo setAction:@selector(addTwo:)];
 }
 
+- (IBAction)addOne:(id)sender {
+    NSLog(@"Should add one");
+}
+
+- (IBAction)addTwo:(id)sender {
+    NSLog(@"Should add two");
+}
+
+- (IBAction)clearOne:(id)sender {
+    NSLog(@"Should clear one");
+}
+
+- (IBAction)clearTwo:(id)sender {
+    NSLog(@"Should clear two");
+}
 @end
