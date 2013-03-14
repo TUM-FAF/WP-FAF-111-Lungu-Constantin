@@ -16,8 +16,7 @@
     _isHidden = FALSE;
     [self.secureTextField setTarget:self];
     [self.secureTextField setAction:@selector(passwordEntered)];
-    
-    
+    [_window setBackgroundColor:[NSColor whiteColor]];
 }
 
 - (IBAction)alertPressed:(id)sender {

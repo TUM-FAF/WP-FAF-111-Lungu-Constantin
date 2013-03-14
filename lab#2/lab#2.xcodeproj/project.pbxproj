@@ -14,7 +14,8 @@
 		0A331EBC16F1DCA1000FAC04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A331EBB16F1DCA1000FAC04 /* AppDelegate.m */; };
 		0A331EBF16F1DCA1000FAC04 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A331EBD16F1DCA1000FAC04 /* MainMenu.xib */; };
 		0A331ECB16F1F998000FAC04 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A331ECA16F1F998000FAC04 /* Person.m */; };
-		0A331ECE16F1FADD000FAC04 /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A331ECD16F1FADD000FAC04 /* tableViewController.m */; };
+		0A331ED116F1FC7D000FAC04 /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A331ED016F1FC7D000FAC04 /* tableViewController.m */; };
+		0A331ED316F204A9000FAC04 /* long_journey_ahead_by_merl1ncz-d5oo6z6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A331ED216F204A9000FAC04 /* long_journey_ahead_by_merl1ncz-d5oo6z6.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +34,9 @@
 		0A331EBE16F1DCA1000FAC04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		0A331EC916F1F998000FAC04 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		0A331ECA16F1F998000FAC04 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		0A331ECC16F1FADD000FAC04 /* tableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewController.h; sourceTree = "<group>"; };
-		0A331ECD16F1FADD000FAC04 /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewController.m; sourceTree = "<group>"; };
+		0A331ECF16F1FC7D000FAC04 /* tableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tableViewController.h; path = ../tableViewController.h; sourceTree = "<group>"; };
+		0A331ED016F1FC7D000FAC04 /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tableViewController.m; path = ../tableViewController.m; sourceTree = "<group>"; };
+		0A331ED216F204A9000FAC04 /* long_journey_ahead_by_merl1ncz-d5oo6z6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "long_journey_ahead_by_merl1ncz-d5oo6z6.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		0A331E9916F1DCA0000FAC04 = {
 			isa = PBXGroup;
 			children = (
+				0A331ED216F204A9000FAC04 /* long_journey_ahead_by_merl1ncz-d5oo6z6.jpg */,
 				0A331EAE16F1DCA1000FAC04 /* lab#2 */,
 				0A331EA716F1DCA1000FAC04 /* Frameworks */,
 				0A331EA516F1DCA1000FAC04 /* Products */,
@@ -90,8 +93,8 @@
 			children = (
 				0A331EBA16F1DCA1000FAC04 /* AppDelegate.h */,
 				0A331EBB16F1DCA1000FAC04 /* AppDelegate.m */,
-				0A331ECC16F1FADD000FAC04 /* tableViewController.h */,
-				0A331ECD16F1FADD000FAC04 /* tableViewController.m */,
+				0A331ECF16F1FC7D000FAC04 /* tableViewController.h */,
+				0A331ED016F1FC7D000FAC04 /* tableViewController.m */,
 				0A331EC916F1F998000FAC04 /* Person.h */,
 				0A331ECA16F1F998000FAC04 /* Person.m */,
 				0A331EBD16F1DCA1000FAC04 /* MainMenu.xib */,
@@ -165,6 +168,7 @@
 				0A331EB316F1DCA1000FAC04 /* InfoPlist.strings in Resources */,
 				0A331EB916F1DCA1000FAC04 /* Credits.rtf in Resources */,
 				0A331EBF16F1DCA1000FAC04 /* MainMenu.xib in Resources */,
+				0A331ED316F204A9000FAC04 /* long_journey_ahead_by_merl1ncz-d5oo6z6.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +182,7 @@
 				0A331EB516F1DCA1000FAC04 /* main.m in Sources */,
 				0A331EBC16F1DCA1000FAC04 /* AppDelegate.m in Sources */,
 				0A331ECB16F1F998000FAC04 /* Person.m in Sources */,
-				0A331ECE16F1FADD000FAC04 /* tableViewController.m in Sources */,
+				0A331ED116F1FC7D000FAC04 /* tableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

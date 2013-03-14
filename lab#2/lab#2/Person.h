@@ -5,6 +5,6 @@
 @property (nonatomic, strong) NSString* name;
 @property (nonatomic) int age;
 
-- (Person*) createPersonWithName:(NSString*)name andAge:(int)age;
+- (void) createPersonWithName:(NSString*)name andAge:(int)age;
 
 @end
