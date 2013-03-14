@@ -13,6 +13,8 @@
 		0A331EB916F1DCA1000FAC04 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0A331EB716F1DCA1000FAC04 /* Credits.rtf */; };
 		0A331EBC16F1DCA1000FAC04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A331EBB16F1DCA1000FAC04 /* AppDelegate.m */; };
 		0A331EBF16F1DCA1000FAC04 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A331EBD16F1DCA1000FAC04 /* MainMenu.xib */; };
+		0A331ECB16F1F998000FAC04 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A331ECA16F1F998000FAC04 /* Person.m */; };
+		0A331ECE16F1FADD000FAC04 /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A331ECD16F1FADD000FAC04 /* tableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		0A331EBA16F1DCA1000FAC04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A331EBB16F1DCA1000FAC04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		0A331EBE16F1DCA1000FAC04 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0A331EC916F1F998000FAC04 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		0A331ECA16F1F998000FAC04 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		0A331ECC16F1FADD000FAC04 /* tableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewController.h; sourceTree = "<group>"; };
+		0A331ECD16F1FADD000FAC04 /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +90,10 @@
 			children = (
 				0A331EBA16F1DCA1000FAC04 /* AppDelegate.h */,
 				0A331EBB16F1DCA1000FAC04 /* AppDelegate.m */,
+				0A331ECC16F1FADD000FAC04 /* tableViewController.h */,
+				0A331ECD16F1FADD000FAC04 /* tableViewController.m */,
+				0A331EC916F1F998000FAC04 /* Person.h */,
+				0A331ECA16F1F998000FAC04 /* Person.m */,
 				0A331EBD16F1DCA1000FAC04 /* MainMenu.xib */,
 				0A331EAF16F1DCA1000FAC04 /* Supporting Files */,
 			);
@@ -167,6 +177,8 @@
 			files = (
 				0A331EB516F1DCA1000FAC04 /* main.m in Sources */,
 				0A331EBC16F1DCA1000FAC04 /* AppDelegate.m in Sources */,
+				0A331ECB16F1F998000FAC04 /* Person.m in Sources */,
+				0A331ECE16F1FADD000FAC04 /* tableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

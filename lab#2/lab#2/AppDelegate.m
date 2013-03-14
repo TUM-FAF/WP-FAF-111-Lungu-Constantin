@@ -6,12 +6,17 @@
 @synthesize isHidden = _isHidden;
 @synthesize secureTextField = _secureTextField;
 @synthesize centralTextField = _centralTextField;
+@synthesize horizontalSlider = _horizontalSlider;
+@synthesize verticalSlider = _verticalSlider;
+@synthesize tableView = _tableView;
+@synthesize people = _people;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     _isHidden = FALSE;
     [self.secureTextField setTarget:self];
     [self.secureTextField setAction:@selector(passwordEntered)];
+    
     
 }
 
@@ -49,4 +54,33 @@
         NSRunAlertPanel(@"Wrong!", @"That's not my surname!", @"OK", nil, nil);
     }
 }
+
+- (IBAction)horizontalSliderValueChanged:(id)sender {
+    if([_horizontalSlider doubleValue] == 0){
+        [self.centralTextField setTextColor:[NSColor blackColor]];
+    }
+    if([_horizontalSlider doubleValue] > 15){
+    [self.centralTextField setTextColor:[NSColor grayColor]];
+    }
+    if([_horizontalSlider doubleValue] > 30){
+        [self.centralTextField setTextColor:[NSColor whiteColor]];
+    }
+    if([_horizontalSlider doubleValue] > 50){
+        [self.centralTextField setTextColor:[NSColor yellowColor]];
+    }
+    if([_horizontalSlider doubleValue] > 65){
+        [self.centralTextField setTextColor:[NSColor greenColor]];
+    }
+    if([_horizontalSlider doubleValue] > 80){
+        [self.centralTextField setTextColor:[NSColor redColor]];
+    }
+    if([_horizontalSlider doubleValue] == 100){
+        [self.centralTextField setTextColor:[NSColor blueColor]];
+    }
+}
+
+- (IBAction)verticalSliderValueChanged:(id)sender {
+    [self.centralTextField setFont:[NSFont fontWithName:@"Arial" size:(self.verticalSlider.doubleValue)]];
+}
+
 @end
