@@ -10,6 +10,7 @@
 * When pressing alt the background color changes from white to black
 * I also implemented a Person class for the table view, because I needed the name and age identifiers inside a class so that I could give the table view a good data source.
 * The application also has a secure text field, in which if you enter correctly my surname, it's giving an alert view that you're good. If not, it's saying that you don't know my surname.
+* [Watch the screencast on vimeo](https://vimeo.com/62258489)
 
 ## Completed objectives:
 
