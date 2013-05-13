@@ -16,7 +16,7 @@
 ## Completed objectives:
 
 ### Mandatory objectives:
-* Create an animation based on Windows timer which involves at least 5 different drawn objects
+* Create an animation based on a timer which involves at least 5 different drawn objects
 
 ### Objectives with points:
 * Increase and decrease animation speed using mouse wheel (2 pt)
