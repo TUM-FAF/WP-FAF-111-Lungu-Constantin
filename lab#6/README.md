@@ -13,7 +13,6 @@
 ## Completed objectives:
 
 ### Mandatory objectives:
-* Create an animation based on a timer which involves at least 5 different drawn objects
 * When pasting (Ctrl+V) a text value, output it in your application using DrawText function
 * When the clipboard has no content then output an alert (Message Box) with explanation.
 * When the clipboard contains non-text content (link, dif, bitmap...) output an alert (Message Box) with explanation.
