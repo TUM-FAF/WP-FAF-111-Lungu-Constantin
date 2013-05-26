@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A338C21174EB00F007D8442 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A338C20174EB00F007D8442 /* Cocoa.framework */; };
+		0A338C2B174EB012007D8442 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A338C29174EB012007D8442 /* InfoPlist.strings */; };
+		0A338C2D174EB012007D8442 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A338C2C174EB012007D8442 /* main.m */; };
+		0A338C31174EB014007D8442 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0A338C2F174EB014007D8442 /* Credits.rtf */; };
+		0A338C34174EB014007D8442 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A338C33174EB014007D8442 /* AppDelegate.m */; };
+		0A338C37174EB015007D8442 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A338C35174EB015007D8442 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A338C1C174EB00F007D8442 /* wplab5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wplab5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A338C20174EB00F007D8442 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0A338C23174EB00F007D8442 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0A338C24174EB00F007D8442 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0A338C25174EB00F007D8442 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A338C28174EB012007D8442 /* wplab5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wplab5-Info.plist"; sourceTree = "<group>"; };
+		0A338C2A174EB012007D8442 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A338C2C174EB012007D8442 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A338C2E174EB013007D8442 /* wplab5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "wplab5-Prefix.pch"; sourceTree = "<group>"; };
+		0A338C30174EB014007D8442 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0A338C32174EB014007D8442 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A338C33174EB014007D8442 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A338C36174EB015007D8442 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A338C19174EB00F007D8442 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A338C21174EB00F007D8442 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A338C11174EB002007D8442 = {
+			isa = PBXGroup;
+			children = (
+				0A338C26174EB00F007D8442 /* wplab5 */,
+				0A338C1F174EB00F007D8442 /* Frameworks */,
+				0A338C1D174EB00F007D8442 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A338C1D174EB00F007D8442 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A338C1C174EB00F007D8442 /* wplab5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A338C1F174EB00F007D8442 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A338C20174EB00F007D8442 /* Cocoa.framework */,
+				0A338C22174EB00F007D8442 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A338C22174EB00F007D8442 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A338C23174EB00F007D8442 /* AppKit.framework */,
+				0A338C24174EB00F007D8442 /* CoreData.framework */,
+				0A338C25174EB00F007D8442 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0A338C26174EB00F007D8442 /* wplab5 */ = {
+			isa = PBXGroup;
+			children = (
+				0A338C32174EB014007D8442 /* AppDelegate.h */,
+				0A338C33174EB014007D8442 /* AppDelegate.m */,
+				0A338C35174EB015007D8442 /* MainMenu.xib */,
+				0A338C27174EB012007D8442 /* Supporting Files */,
+			);
+			path = wplab5;
+			sourceTree = "<group>";
+		};
+		0A338C27174EB012007D8442 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A338C28174EB012007D8442 /* wplab5-Info.plist */,
+				0A338C29174EB012007D8442 /* InfoPlist.strings */,
+				0A338C2C174EB012007D8442 /* main.m */,
+				0A338C2E174EB013007D8442 /* wplab5-Prefix.pch */,
+				0A338C2F174EB014007D8442 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A338C1B174EB00F007D8442 /* wplab5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A338C3A174EB015007D8442 /* Build configuration list for PBXNativeTarget "wplab5" */;
+			buildPhases = (
+				0A338C18174EB00F007D8442 /* Sources */,
+				0A338C19174EB00F007D8442 /* Frameworks */,
+				0A338C1A174EB00F007D8442 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wplab5;
+			productName = wplab5;
+			productReference = 0A338C1C174EB00F007D8442 /* wplab5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A338C13174EB003007D8442 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0A338C16174EB003007D8442 /* Build configuration list for PBXProject "wplab5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A338C11174EB002007D8442;
+			productRefGroup = 0A338C1D174EB00F007D8442 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A338C1B174EB00F007D8442 /* wplab5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A338C1A174EB00F007D8442 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A338C2B174EB012007D8442 /* InfoPlist.strings in Resources */,
+				0A338C31174EB014007D8442 /* Credits.rtf in Resources */,
+				0A338C37174EB015007D8442 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A338C18174EB00F007D8442 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A338C2D174EB012007D8442 /* main.m in Sources */,
+				0A338C34174EB014007D8442 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A338C29174EB012007D8442 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A338C2A174EB012007D8442 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A338C2F174EB014007D8442 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A338C30174EB014007D8442 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0A338C35174EB015007D8442 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A338C36174EB015007D8442 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A338C38174EB015007D8442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0A338C39174EB015007D8442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0A338C3B174EB015007D8442 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wplab5/wplab5-Prefix.pch";
+				INFOPLIST_FILE = "wplab5/wplab5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A338C3C174EB015007D8442 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "wplab5/wplab5-Prefix.pch";
+				INFOPLIST_FILE = "wplab5/wplab5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A338C16174EB003007D8442 /* Build configuration list for PBXProject "wplab5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A338C38174EB015007D8442 /* Debug */,
+				0A338C39174EB015007D8442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A338C3A174EB015007D8442 /* Build configuration list for PBXNativeTarget "wplab5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A338C3B174EB015007D8442 /* Debug */,
+				0A338C3C174EB015007D8442 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A338C13174EB003007D8442 /* Project object */;
+}
